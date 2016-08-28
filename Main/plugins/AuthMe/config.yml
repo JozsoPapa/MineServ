@@ -55,7 +55,7 @@ settings:
         # Consider that session will end only after the timeout time, and
         # if the player's ip has changed but the timeout hasn't expired,
         # player will be kicked out of sever due to invalidSession!
-        timeout: 60
+        timeout: 30
         # Should the session expire if the player try to login with an
         # another IP Address?
         sessionExpireOnIpChange: true
@@ -124,7 +124,7 @@ settings:
         removeSpeed: true
         # After how many time players who fail to login or register
         # should be kicked? Set to 0 to disable.
-        timeout: 5
+        timeout: 60
         # Regex syntax of allowed characters in the player name.
         allowedNicknameCharacters: '[a-zA-Z0-9_]*'
         # How far can unregistered players walk? Set to 0
