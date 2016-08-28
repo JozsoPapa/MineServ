@@ -121,7 +121,7 @@ settings:
         allowMovement: false
         # Should not authenticated players have speed = 0?
         # This will reset the fly/walk speed to default value after the login.
-        removeSpeed: true
+        removeSpeed: false
         # After how many time players who fail to login or register
         # should be kicked? Set to 0 to disable.
         timeout: 60
