@@ -1,0 +1,15 @@
+{
+  "group": "",
+  "location": {
+    "world": "worlds/jozsoworld",
+    "x": -164.03173954586325,
+    "y": 74.0,
+    "z": 261.65378692219923,
+    "yaw": -56.70001,
+    "pitch": 19.95
+  },
+  "operator": false,
+  "can-fly": false,
+  "walk-speed": 1.0E-4,
+  "fly-speed": 1.0E-4
+}

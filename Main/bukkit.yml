@@ -21,7 +21,7 @@ settings:
   connection-throttle: 5000
   query-plugins: true
   deprecated-verbose: default
-  shutdown-message: Server shutting down...
+  shutdown-message: A szerver leáll...
   ping-packet-limit: 100
 spawn-limits:
   monsters: 80

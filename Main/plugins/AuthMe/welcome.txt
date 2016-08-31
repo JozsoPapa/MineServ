@@ -1,0 +1,6 @@
+Üdvözöllek {PLAYER} a {SERVER} szerveren!
+
+Ez a szerver AuthMeReloaded védelmet használ!
+Jelenleg {ONLINE}/{MAXPLAYERS} játékos online.
+
+Jó szórakozást!
