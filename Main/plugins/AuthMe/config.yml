@@ -121,10 +121,10 @@ settings:
         allowMovement: false
         # Should not authenticated players have speed = 0?
         # This will reset the fly/walk speed to default value after the login.
-        removeSpeed: false
+        removeSpeed: true
         # After how many time players who fail to login or register
         # should be kicked? Set to 0 to disable.
-        timeout: 60
+        timeout: 120
         # Regex syntax of allowed characters in the player name.
         allowedNicknameCharacters: '[a-zA-Z0-9_]*'
         # How far can unregistered players walk? Set to 0
@@ -363,7 +363,7 @@ Email:
     # Random password length
     RecoveryPasswordLength: 8
     # Email subject of password get
-    mailSubject: 'Your new AuthMe password'
+    mailSubject: 'Az új AuthMe jelszavad'
     # Like maxRegPerIp but with email
     maxRegPerEmail: 1
     # Recall players to add an email?
