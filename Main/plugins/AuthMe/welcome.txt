@@ -1,6 +1,6 @@
 Üdvözöllek {PLAYER} a {SERVER} szerveren!
 
-Ez a szerver AuthMeReloaded védelmet használ!
+A szabályokért kérlek használd a "/rules" parancsot!
 Jelenleg {ONLINE}/{MAXPLAYERS} játékos online.
 
 Jó szórakozást!
