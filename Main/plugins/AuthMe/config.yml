@@ -85,7 +85,7 @@ settings:
         # The next time the player joins the server, if his IP
         # is the same as last time and the timeout hasn't
         # expired, he will not need to authenticate.
-        enabled: false
+        enabled: true
         # After how many minutes should a session expire?
         # Remember that sessions will end only after the timeout, and
         # if the player's IP has changed but the timeout hasn't expired,
@@ -105,7 +105,7 @@ settings:
         # listed in the list below.
         allowChat: false
         # Hide the chat log from players who are not authenticated?
-        hideChat: false
+        hideChat: true
         # Allowed commands for unauthenticated players
         allowCommands: 
         - '/login'
@@ -116,7 +116,7 @@ settings:
         - '/captcha'
         # Max number of allowed registrations per IP
         # The value 0 means an unlimited number of registrations!
-        maxRegPerIp: 1
+        maxRegPerIp: 0
         # Minimum allowed username length
         minNicknameLength: 3
         # Maximum allowed username length
